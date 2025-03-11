@@ -2,3 +2,4 @@
 /.env.local
 /.idea/
 /__pycache__/
+/cinema-assistant.iml

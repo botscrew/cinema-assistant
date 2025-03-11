@@ -7,4 +7,4 @@ load_dotenv(find_dotenv())
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
-
+PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")

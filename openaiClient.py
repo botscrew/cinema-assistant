@@ -82,3 +82,8 @@ def processCompletion(messages, completion:ChatCompletion):
 
 
 
+
+def create_embedding(text):
+    result = client.embeddings.create(input=text, model="text-embedding-3-small")
+    return result.data[0].embedding
+

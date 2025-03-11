@@ -3,3 +3,7 @@ openai~=1.65.3
 python-dotenv~=1.0.1
 
 supabase~=2.13.0
+
+pinecone~=6.0.1
+
+beautifulsoup4~=4.13.3
